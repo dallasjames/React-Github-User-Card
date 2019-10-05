@@ -1,0 +1,29 @@
+html {
+  background: black;
+  color: white;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  background: gray;
+  width: 30rem;
+  padding-top: 1rem;
+  border-radius: 5%;
+}
+
+.allCards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+img {
+  width: 10rem;
+}
+
+.followerTitle {
+  display: flex;
+  justify-content: center;
+}
